@@ -1,0 +1,35 @@
+Project:
+ Name: NewHMIProject15
+ GUID: 3442b7abe68e445de02d268765a1dc71
+ ProjectNamespaceIndex: 7
+ Description: ''
+ Company: ''
+ Copyright: ''
+ FormatVersion: 1
+ ProductVersion: 1.0
+ CoreVersion: 1.1
+ EncryptionVersion: 1
+ EncryptionMode: Secrets
+ Dependencies:
+  2:
+   Uri: 'urn:FTOptix:CoreBase'
+   Module: FTOptix.CoreBase
+   Version: 1.0
+  3:
+   Uri: 'urn:FTOptix:UI'
+   Module: FTOptix.UI
+   Version: 1.0
+  4:
+   Uri: 'urn:FTOptix:HMIProject'
+   Module: FTOptix.HMIProject
+   Version: 3.0
+  5:
+   Uri: 'urn:FTOptix:NativeUI'
+   Module: FTOptix.NativeUI
+   Version: 1.0
+  6:
+   Uri: 'urn:FTOptix:Retentivity'
+   Module: FTOptix.Retentivity
+   Version: 1.0
+ Nodes:
+ - File: Nodes/NewHMIProject15.yaml
